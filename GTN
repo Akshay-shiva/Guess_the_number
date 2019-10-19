@@ -4,12 +4,12 @@ games=int(input("how many games do you want to play \n"))
 
 while games>=1:
     cunt=1;
-    #q=int(input("In how many trials do you succeed? \n"))#q is trials
+    
 
     
     x=random.randint(1,20)
     print(x)
-    while  cunt>0:  #remove this while loop for unlimited chances
+    while  cunt>0:  
         p=int(input("Enter ur Number \n"))
         if p==x:
             
@@ -22,11 +22,10 @@ while games>=1:
         else:
             print("loss")
         
-        #q-=1 #and this one too if you remove above while
+        
         cunt+=1
     print("your cunts are %f" %cunt)
-    #if q==0 and p!=x:
-     #   print("The number expected is%f" %x)
+    
     games-=1
    
     
