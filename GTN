@@ -1,0 +1,35 @@
+import random
+
+games=int(input("how many games do you want to play \n"))
+
+while games>=1:
+    count=1;
+    q=int(input("In how many trials do you think you will succeed? \n"))#q is trials
+
+    
+    x=random.randint(1,25)
+   # print(x)
+    while  q>0:  #remove this  for unlimited chances
+        p=int(input("Enter ur Number \n"))
+        if p==x:
+            
+            print("Son of the bitch did it")
+            break
+        elif(p>x):
+            print("na try lesser")
+        elif p<x:
+            print("try greater")
+        else:
+            print("loss")
+        
+        q-=1 #and this one too if you remove above 
+        count+=1
+    print("your counts are %f" %cunt)
+    if q==0 and p!=x:
+        print("The number expected is%f" %x)
+    games-=1
+   
+    
+
+
+    
