@@ -8,7 +8,7 @@ while games>=1:
 
     
     x=random.randint(1,20)
-    print(x)
+    #print(x)
     while  cunt>0:  
         p=int(input("Enter ur Number \n"))
         if p==x:
